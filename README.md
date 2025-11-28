@@ -45,21 +45,20 @@ Define **WHAT** to build → AI generates **HOW** it works.
 
 #### ✔ Recommended (Persistent Install)
 ```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+# Install the framework
+pip install specifyplus
+
+# Verify installation
+specifyplus --version
 ```
 
 Run:
 ```bash
+
 specify init <PROJECT_NAME>
 specify check
-```
 
-Upgrade:
-```bash
-uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
 ```
-
----
 
 ### **2. Establish Project Principles**
 Inside your AI coding agent:
